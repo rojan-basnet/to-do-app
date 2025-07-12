@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(0, 0%, 20%);
+
+}
+.container{
+    width: 320px;
+    margin-top: 30px;
+    padding:20px;
+    background-color: hsl(0, 0%, 50%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form{
+    border-radius: 40px;
+    border:none;
+    background-color: white;
+}
+#input{
+    width: 70%;
+    padding:10px;
+    border-radius: 40px;
+    border:none;
+
+}
+#add{
+    width: 30%;
+    padding:10px;
+    border-radius: 40px;
+    border:none;
+    font-weight: bold;
+    background-color: hsl(161, 21%, 32%);
+    color:white;
+
+}
+.forliele{
+    display: flex;
+    padding: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 300px;
+}
+
+.liDecor{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color:hsl(0, 0%, 0%);
+    margin: 10px;
+    border:1px solid;
+}
+i{
+    color:hsl(0, 0%, 0%);
+}
+.trash{
+    padding:5px 20px;
+    border-radius: 10px;
+    background-color: hsl(0, 100%, 66%);
+    border:none;
+    fill:white;
+
+}
